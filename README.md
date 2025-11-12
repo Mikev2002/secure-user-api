@@ -1,5 +1,3 @@
-# secure-user-api
-
 # Secure User API
 
 FastAPI-based secure user authentication system with JWT tokens and SQLite database.
