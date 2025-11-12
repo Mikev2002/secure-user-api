@@ -1,0 +1,5 @@
+[
+  "tests/test_register.py::test_register_duplicate_user",
+  "tests/test_register.py::test_register_user",
+  "tests/test_utils.py::test_password_hash_and_verify"
+]

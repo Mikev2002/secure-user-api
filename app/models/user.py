@@ -1,7 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime, func
-from sqlalchemy.ext.declarative import declarative_base
+from app.database import Base  # ✅ Import Base from your shared database file
 
-Base = declarative_base()
 
 class User(Base):
     __tablename__ = "users"
